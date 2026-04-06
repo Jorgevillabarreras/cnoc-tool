@@ -579,10 +579,10 @@
 <script>
   // ── GOOGLE SHEETS CONFIG ───────────────────────────────
   // 👇 PEGA AQUÍ TU URL DEL APPS SCRIPT (paso 4 de las instrucciones)
-  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwcR5z6XOYaOTqI8BAo38mwEQG74QJEmqjen3aoDr-_kwTA7BKqwRax5niJE2lg-R5h/exec';
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzftI2ywfgnUc_jUkHygWr690_quecKz2gSKWB_hF-DSFAArIIBHg50PP5IJ-64zOS4/exec';
 
   async function sendToGoogleSheets(rec) {
-    if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbwcR5z6XOYaOTqI8BAo38mwEQG74QJEmqjen3aoDr-_kwTA7BKqwRax5niJE2lg-R5h/exec') return;
+    if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbzftI2ywfgnUc_jUkHygWr690_quecKz2gSKWB_hF-DSFAArIIBHg50PP5IJ-64zOS4/exec') return;
     try {
       await fetch(GOOGLE_SCRIPT_URL, {
         method: 'POST',
